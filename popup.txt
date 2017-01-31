@@ -1,0 +1,20 @@
+<HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Idea by:  Nic Wolfe (Nic@TimelapseProductions.com) -->
+<!-- Web URL:  http://fineline.xs.mw -->
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+function popUp(URL) {
+day = new Date();
+id = day.getTime();
+eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=760,height=400,left = 260,top = 312');");
+}
+// End -->
+</script>
+
+
+<BODY onLoad="javascript:popUp('http://www.delraycomputer.com/ML/0SE63AVE/1.htm')">

@@ -1,0 +1,13 @@
+
+&color1=0x000000
+&border1=1
+
+<object type="application/x-shockwave-flash" data="http://www.youtube.com/v/Fsw-onjryCw&amp;hl=en_US&amp;fs=1&amp;rel=0" width="480" height="385">
+<param name="movie" value="http://www.youtube.com/v/Fsw-onjryCw&amp;hl=en_US&amp;fs=1&amp;rel=0">
+<PARAM NAME="quality" VALUE="high">
+<PARAM NAME="loop" VALUE="false">
+<param name="allowFullScreen" value="true">
+<param name="allowscriptaccess" value="always">
+</object>
+
+

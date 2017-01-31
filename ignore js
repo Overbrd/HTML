@@ -1,0 +1,9 @@
+<script type="text/javascript">
+//<![CDATA[
+  javascript goes here
+//]]>
+</script>
+
+
+
+W3C Validator ignores everything between the CDATA and the ]], note that the // is required for it to work.

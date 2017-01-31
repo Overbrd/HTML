@@ -1,0 +1,16 @@
+<table width="85%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td>
+
+<script language="JavaScript" src="http://www.biblegateway.com/usage/votd/votd2html.php?version=9&amp;jscript=1&newtarget=1"> 
+</script>
+<!-- alternative for no javascript -->
+<noscript>
+<a href="http://www.biblegateway.com/usage/votd/votd2html.php?version=9&amp;jscript=0&newtarget=1">View Verse of the Day</a> 
+</noscript> 
+
+</td>
+
+</tr>
+
+</table>

@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+<title> Stu Nicholls | CSS Image Map </title>
+<meta name="Author" content="Stu Nicholls" />
+
+<style type="text/css">
+/* set up the font to be used for the page */
+body {font-family: tahoma; arial, sans-serif;}
+
+/* set the size of the definition list <dl> and add the background image */
+#imap {display:block; width:400px; height:240px; background:url(../images/beatles_basic.jpg) no-repeat; position:relative;}
+
+/* set up the definition list <dt><a> to hold the background image for the hover state */
+#imap a#title {display:block; width:400px; height:0; padding-top:240px; overflow:hidden; position:absolute; left:0; top:0; background:transparent url(../images/beatles_hover.jpg) no-repeat 400px 400px; cursor:default;}
+/* the hack for IE pre IE6 */
+* html #imap a#title {height:240px; he\ight:0;}
+
+/* the <dt><a> hover style to move the background image to position 0 0*/
+#imap a#title:hover {background-position: 0 0; z-index:10;}
+
+/* place the <dd>s in the correct absolute position */
+#imap dd {position:absolute; padding:0; margin:0;}
+#imap #picp {left:36px; top:46px; z-index:20;}
+#imap #picr {left:113px; top:76px; z-index:20;}
+#imap #picj {left:192px; top:50px; z-index:20;}
+#imap #picg {left:262px; top:60px; z-index:20;}
+
+/* style the <dd><a> links physical size and the background image for the hover */
+#imap a#paul, #imap a#ringo, #imap a#john, #imap a#george {display:block; width:85px; height:85px; background:transparent url(../images/hover.gif) -100px -100px no-repeat; text-decoration:none; z-index:20;}
+
+/* style the span text so that it is not initially displayed */
+#imap a span, #imap a:visited span {display:none;}
+
+/* move the link background image to position 0 0 when hovered */
+#imap a#paul:hover, #imap a#ringo:hover, #imap a#john:hover, #imap a#george:hover {background-position:0 0;}
+
+</style>
+</head>
+
+<body>
+
+<h2>A CSS Image Map.</h2>
+<h3>Example #7</h3>
+<h4>Displaying the link(s) :hover image</h4>
+<dl id="imap">
+<dt><a id="title" href="#nogo" title="The Beatles">The Beatles</a></dt>
+<dd id="picp"><a id="paul" title="Paul McCartney" href="#nogo"><span>Paul McCartney - Bass Guitar and Vocals<br /><br />Paul McCartney's song, Yesterday, recently voted the most popular song of the century by a BBC poll, was initially composed without lyrics. Paul used the working title 'scrambled eggs' before coming up with the final words.</span></a></dd>
+<dd id="picr"><a id="ringo" title="Ringo Starr" href="#nogo"><span>Ringo Starr - Drums<br /><br />Dear Prudence was written by John and Paul about Mia Farrow's sister, Prudence, when she wouldn't come out and play with Mia and the Beatles at a religious retreat in India.</span></a></dd>
+<dd id="picj"><a id="john" title="John Lennon" href="#nogo"><span>John Lennon - Guitar and Vocals<br /><br />In 1962, The Beatles won the Mersyside Newspaper's biggest band in Liverpool contest principally because they called in posing as different people and voted for themselves numerous times.</span></a></dd>
+<dd id="picg"><a id="george" title="George Harrison" href="#nogo"><span>George Harrison - Lead Guitar and Vocals<br /><br />The Beatles' last public concert was held in San Francisco's Candlestick Park on August 29, 1966.</span></a></dd>
+</dl>
+
+
+</body>
+</html>

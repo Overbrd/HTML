@@ -1,0 +1,1 @@
+<div id="pointable" onclick="location.href='http://example.com/';" style="cursor: pointer;"></div>

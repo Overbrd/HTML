@@ -1,0 +1,5 @@
+<SCRIPT TYPE="text/javascript" SRC="foo.js">
+<!--
+  // embedded script ignored
+// -->
+</SCRIPT>

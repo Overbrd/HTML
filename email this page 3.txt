@@ -1,0 +1,29 @@
+<!-- ONE STEP TO INSTALL E-MAIL THIS PAGE SCRIPT:
+
+  1.  Copy the coding into the BODY of your HTML document  -->
+
+<!-- STEP ONE: Paste this code into the BODY of your HTML document  -->
+
+<BODY>
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+<!-- Original:  David Henry (davidputhenry@yahoo.com) -->
+<!-- Web Site:  http://www.davidphenry.com --> <SCRIPT TYPE="text/javascript"><!--
+
+var SubjectLine='Take a look at this web page I found, '+top.document.title; var BodyText='You can see this page at: '+top.location.href;
+
+var Message='Send <A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" TITLE="Send your friends e-mail about this page">this page<\/A> to a friend.';
+
+var MessageIE='Send <A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" TITLE="Send your friends e-mail about this page">this page<\/A> to a friend.';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+//--></SCRIPT>
+
+<p><center>
+<font face="arial, helvetica" size"-2">Free JavaScripts provided<br> by <a href="http://javascriptsource.com">The JavaScript Source</a></font> </center><p>
+
+<!-- Script Size:  1.33 KB -->

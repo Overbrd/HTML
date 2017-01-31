@@ -1,0 +1,16 @@
+<script>
+UC = 0
+if (getQueryVariable("UC") == 605) 
+{
+//alert('Query Variable ' + U + ' was found');
+}
+else
+	{
+// disable select
+document.onselectstart=new Function('return false')
+function ds(e){return false;}
+//function ra(){return true;}
+document.onmousedown=ds;
+//document.onclick=ra 
+};
+</script>

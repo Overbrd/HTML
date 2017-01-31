@@ -1,0 +1,30 @@
+Simple MailTo 
+
+<a href="mailto:astark1@unl.edu">
+MailTo with Multiple Recipients 
+
+<a href="mailto:astark1@unl.edu,ASTARK1@UNL.EDU">
+MailTo with Subject 
+
+<a href="mailto:astark1@unl.edu?subject=Comments from MailTo Syntax Page">
+
+MailTo with a Copy 
+
+<a href="mailto:astark1@unl.edu?&cc=ASTARK1@UNL.EDU">
+MailTo with a Blind Copy 
+
+<a href="mailto:astark1@unl.edu?&bcc=ASTARK1@UNL.EDU">
+MailTo with message already started in Body 
+
+<a href="mailto:astark1@unl.edu?&body=I am having trouble finding information on ">
+MailTo with multiline message in Body 
+
+<a href="mailto:astark1@unl.edu?&body=The message's first paragraph.%0A%0aSecond paragraph.%0A%0AThird Paragraph.">
+NOTE: Use "%0A" for a new line, use "%0A%0A" for a new line preceded by a blank line.
+Features may be used in combination
+
+MailTo with Subject, One Recipient and Two Copies 
+<a href="mailto:astark1@unl.edu?subject=MailTo Comments&cc=ASTARK1@UNL.EDU,id@internet.node">
+
+
+Remember to use only one ? (question mark), when providing multiple entries beyond e-mail address

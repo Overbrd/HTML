@@ -1,0 +1,2 @@
+<META http-equiv="Page-Enter" content="blendTrans(Duration=0.1)"> 
+<META http-equiv="Page-Exit" content="blendTrans(Duration=0.1)"> 

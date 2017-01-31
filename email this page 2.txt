@@ -1,0 +1,25 @@
+<body>
+
+
+
+
+<br><br><br>
+
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+<!-- Original:  David Henry (davidputhenry@yahoo.com) -->
+<!-- Web Site:  http://www.davidphenry.com --> <SCRIPT TYPE="text/javascript"><!--
+
+var SubjectLine='Take a look at this web page I found, '+top.document.title; var BodyText='You can see this page at: '+top.location.href;
+
+var Message='Click<A CLASS=contact HREF="mailto:?SUBJECT='+escape(SubjectLine)+'&BODY='+escape(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" TITLE="Send your friends e-mail about this page">HERE<\/A> to E-mail this listing to a friend.';
+
+var MessageIE='Click<A CLASS=contact HREF="mailto:?SUBJECT='+(SubjectLine)+'&BODY='+(BodyText)+'" OnMouseOver="status=\'Envoyer cette page à vos amis\'; return true;" TITLE="Send your friends e-mail about this page">HERE<\/A> to E-mail this listing to a friend.';
+
+if(document.all) { document.write(MessageIE); }
+
+else { document.write(Message); }
+
+//--></SCRIPT>
+

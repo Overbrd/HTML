@@ -1,0 +1,6 @@
+<img src="images/social_urls.png" mce_src="images/social_urls.png" alt="" usemap="#t_f_l_logos_vert_url_Map" align="right" border="0" height="112" width="84">
+<map name="t_f_l_logos_vert_url_Map">
+<area shape="rect" mce_shape="rect" alt="Delray Computer on Linkedin" coords="28,82,56,110" mce_coords="28,82,56,110" href="http://www.linkedin.com/in/mattlind" mce_href="http://www.linkedin.com/in/mattlind" target="_blank">
+<area shape="rect" mce_shape="rect" alt="Delray Computer on Twitter" coords="29,47,56,75" mce_coords="29,47,56,75" href="http://twitter.com/delraycomputer" mce_href="http://twitter.com/delraycomputer" target="_blank">
+<area shape="rect" mce_shape="rect" alt="Delray Computer on Facebook" coords="28,10,56,40" mce_coords="28,10,56,40" href="http://www.facebook.com/DelrayComputer" mce_href="http://www.facebook.com/DelrayComputer" target="_blank">
+</map></p><p>

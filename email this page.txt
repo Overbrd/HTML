@@ -1,0 +1,54 @@
+
+<!-- TWO STEPS TO INSTALL EMAIL THIS PAGE:
+
+  1.  Copy the coding into the HEAD of your HTML document
+  2.  Add the last code into the BODY of your HTML document  -->
+
+<!-- STEP ONE: Paste this code into the HEAD of your HTML document  -->
+
+<HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Original:  Ronnie T. Moore -->
+<!-- Web Site:  The JavaScript Source -->
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+function initMail(form) {
+text = "Check out this page:  " + window.location;
+form.message.value = "Hi " + form.sendto.value + " (" + form.to.value + "):\n\n"
+ + text + "\n\nYour Friend,\n" + form.sendername.value + "(" + form.senderemail.value + ")";
+return (form.to.value != "");
+}
+//  End -->
+</script>
+</HEAD>
+
+<!-- STEP TWO: Copy this code into the BODY of your HTML document  -->
+
+<BODY>
+
+<center>
+<form name=emailform method=post action="http://cgi.freedback.com/mail.pl" target="_new" onSubmit="return initMail(this);">
+<input type=hidden name=subject value="** Check Out This Site! **">
+<input type=hidden name=message value="">
+<table>
+<tr><td colspan=2 align=center>Tell a friend about this page!</td></tr>
+<tr><td>Their Name:</td><td><input type=text name=sendto></td></tr>
+<tr><td>Their Email:</td><td><input type=text name=to></td></tr>
+<tr><td>Your Name:</td><td><input type=text name=sendername></td></tr>
+<tr><td>Your Email:</td><td><input type=text name=senderemail></td></tr>
+<tr><td colspan=2 align=center><input type=submit value="Ok!"></td></tr>
+</table>
+</form>
+</center>
+
+
+<p><center>
+<font face="arial, helvetica" size="-2">Free JavaScripts provided<br>
+by <a href="http://javascriptsource.com">The JavaScript Source</a></font>
+</center><p>
+
+<!-- Script Size:  1.63 KB -->

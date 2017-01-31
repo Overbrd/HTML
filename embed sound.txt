@@ -1,0 +1,57 @@
+USE FLASH TO EMBED SOUND
+
+CONVERT MUSIC FILE INTO A WAV FILE AND IMPORT INTO FLASH
+
+
+
+
+
+
+The <EMBED> tag is the most common way of adding sound to a Web page. Its advantage over the <BGSOUND> tag is that it is supported by both browsers, and more consistently across the PC and Mac platforms. The <EMBED> tag introduces many features that aren't supported by <BGSOUND>. Furthermore, while the <BGSOUND> tag only supports background sounds, the <EMBED> tag also features an interactive interface (including various buttons to play, stop, and handle the sound). Let's take a look at the <EMBED> tag in action (requires a sound-enabled browser):
+
+
+The HTML code that generates a control panel is very simple:
+
+
+<EMBED SRC="xfiles.mid" VOLUME="50" HEIGHT="60" WIDTH="144">
+
+Try reading this page on both browsers. You'll be surprised to see that the design of the control panel is totally different. For example, Navigator's control panel includes a volume control while Explorer's has a position control. Also, Navigator 4.0.5 uses a different control panel than 4.0.4. Explorer features an optional digital display, invoked by right-clicking the control panel. Navigator does not have a digital display.
+
+JavaScript support is also different between the two browsers. Navigator and Explorer support different sets of the <EMBED>'s attributes. Here are the attributes supported by both browsers:
+
+Attribute Description 
+SRC="URL" Specifies the URL of the sound file. Sound files can be in any recognizable format (For example: "midi, wav, au") 
+WIDTH="n" Specifies the width of the control panel. The optimal width to use is 144 pixels. Navigator chops the control panel if a smaller value is used (or if the attribute is omitted altogether), and adds a blank area to its right side, if a larger number is specified. Explorer also yields a reasonable panel with this value. 
+HEIGHT="n" Specifies the height of the control panel. The optimal width to use is 60 pixels. Navigator chops the control panel if a smaller value is used (or if the attribute is omitted altogether), and adds a blank area on its top, if a larger number is specified. Explorer also yields a reasonable panel with this value. 
+ALIGN="alignoption" Specifies how the alignment of the control panel should be, much like the alignment of images (<IMG> tag). Possible options are: TOP, BOTTOM, CENTER, BASELINE, LEFT, RIGHT, TEXTTOP, MIDDLE, ABSMIDDLE, or ABSBOTTOM. 
+NAME="name" Specifies the name of the object. Can be used to access the object from JavaScript via document.name  
+HIDDEN="true"|"false" Specifies if the embedded object is visible (HIDDEN="false") or hidden (HIDDEN="true"). The default is HIDDEN="false". 
+
+The following attributes are not supported by both browsers:
+
+Attribute Description 
+VOLUME="n" Specifies the sound volume. Can range from 0 to 100, 50 is the default. Navigator's control panel reflects this setting when the element is loaded. Supported only by Netscape Navigator. The Windows 95's default is 50 (midpoint), while that on the Mac is 75. 
+LOOP="true"|"false"|"n" Specifies if the sound should be played continuously (LOOP="true"), for a specified number of times (n), or should not be repeated (LOOP="false"). Supported only by Navigator; You will get continuous sound on Explorer. For same effect on Explorer, use playcount (see below). 
+PLAYCOUNT="n" Specifies the number of times to play the sound. Supported only by Explorer. 
+PLUGINSPAGE="URL" Specifies the location of the plug-in software needed to run the sound file. This attribute is needed only if the plug-in software is not one of the common ones that are already installed on the computer. Supported only by Navigator. 
+PLUGINURL="URL" Specifies the location of the software needed to install the specified plug-in (JAR Installation Manager). This attribute is needed only if the plug-in software is not one of the common ones that are already installed on the computer. Supported only by Navigator. 
+HREF="URL" Converts the control panel into a hyperlink. Works like <A HREF="URL"> and only with Explorer. 
+TARGET="URL" Converts the control panel into a hyperlink. Works like <A TARGET="URL"> and only with Explorer. 
+AUTOSTART="true"|"false" Indicates if the sound track should start automatically upon loading. A "true" value means it should, a "false" value means it should not. The Explorer's default is "false" while Navigator's one is "true". The default on the Mac is "false" for both browsers. 
+STARTTIME="mm:ss" Indicates the spot on the track where to begin playing. Notice that the playing will start immediately, at the specified spot. The spot is specified in minutes from the beginning of the track. The track begins to play immediately when you download it (AUTOSTART="true"), or when you hit the play button (AUTOSTART="false"). Time is denoted in minutes and seconds. If you specify a time longer than the soundtrack length, the browser will give you an error. Supported only by Navigator. 
+ENDTIME="mm:ss" Indicates the spot on the sound track where to stop playing. The spot is specified in minutes from the beginning of the track. The track begins to play immediately when you download it (AUTOSTART="true"), or when you hit the play button (AUTOSTART="false"). Time is denoted in minutes and seconds. If you specify a time longer than the soundtrack length, the browser will give you an error. Supported only by Navigator. 
+
+Let's demonstrate the last two attributes, STARTTIME and ENDTIME. The following code plays 20 seconds of the Aladdin soundtrack, starting at the 10th second (please reload the page):
+
+
+
+<HTML>
+<HEAD>
+<TITLE> testing  </TITLE>
+</HEAD>
+<BODY>
+<EMBED SRC="aladdin.mid" HIDDEN="true" AUTOSTART="true"
+  STARTTIME="00:10" ENDTIME="00:30">
+</BODY>
+</HTML>
+

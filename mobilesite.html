@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Digg Mobile
+                    - All Topics
+                 - The Latest News Headlines, Videos and Images
+    </title>
+    
+        <meta name="keywords" content="Digg, pictures, breaking news, entertainment, politics, technology, headline news, celebrity news, offbeat, world business, sports, funny videos">
+        <meta name="description" content="The best news, videos and pictures on the web as voted on by the Digg community. Breaking news on Technology, Politics, Entertainment, and more!">
+    
+    
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no">
+        <link rel="apple-touch-icon" href="http://cdn1.diggstatic.com/img/iphone/icon.63e34426.png"/>
+    
+    <link rel="shortcut icon" href="http://cdn1.diggstatic.com/img/favicon.a015f25c.ico">
+        
+        <link rel="stylesheet" type="text/css" href="http://cdn4.diggstatic.com/css/m/library/global.b012a4e0.css" media="all">
+    
+    <script type='text/javascript'>
+var DUI=function(){function d(){for(e=1;b.length;)b.shift()();b=null}var e,b=[];if(window.attachEvent)attachEvent("onload",d);else window.addEventListener&&addEventListener("load",d,true);return{mergeIn:function(a){for(propName in a)this[propName]=a[propName]},onPageLoad:function(a){e?a():b.push(a)},loadScript:function(a){var c=document.createElement("SCRIPT"),f=document.getElementsByTagName("SCRIPT")[0];c.type="text/javascript";c.async=true;c.src=a;f.parentNode.insertBefore(c,f)}}}();
+DUI.mergeIn({"digg_security_token":"1325461110_e804a8789f547871a5858a2b9c49b4e63de7c1fe6318d9c769b56c80550d58ef","digg_loggedin_state":0,"digg_location_id":20,"digg_language":"en_US","digg_trap_js_errors":0,"fb_app_id":"123277257693179"})
+</script>
+
+    
+        <!-- Begin comScore Tag -->
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6299437", c3: "", c4: "" });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+</script>
+<!-- End comScore Tag -->
+    
+    
+        <!-- Begin Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22691244-1']);
+  _gaq.push(['_setDomainName', '.digg.com']);
+  _gaq.push(['_setCustomVar', 1, 'Tests', ',115=N,122=N,164=N,226=N,357=N', 3 ]);
+  _gaq.push(['_setCustomVar', 2, 'Users', 'f=N,t=N,u=_', 1 ]);
+  _gaq.push(['_setCustomVar', 3, 'Endpoints', 'TopNews:index', 3 ]);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Google Analytics -->
+    
+    <script type="text/html" id="ad_template"><div class="slim-story-item story-item ad-river group <@=ad_id@>"><div class="slim-story-item-gutters group"><div class="story-item-diggbtn"><div class="slim-digg-btn has-tooltip<@=(ad_user_has_dugg ? " digg-dugg" : "")@>" data-id="<@=ad_id@>"><div class="slim-digg-count"><a href=<@=(!ad_meta.video_embed ? ad_server +  ad_click_url + "\"" : "#" )@> target="_blank" class="<@ if (ad_meta.video_embed) { @> has-inline-video<@ } @>"><span class="slim-digg-count-text inline-block"><@=ad_meta.diggs@></span></a></div><ul class="actions"><li class="bury"><a class="bury hide-link-slim"data-digg-action="bury"><span class="digg-thumbs-down"></span></a></li><li class="digg"><a data-digg-action="digg" class="digg digg-it digg-advert <@=ad_user_has_dugg ?" active\" href=\"" + ad_server + ad_click_url + "\"" : "\""@>><span class="digg-thumbs-up"></span></a></a></li></ul></div></div><div class="story-item-content group"><div class="story-item-details"><h3 class="story-item-title"><a <@=(!ad_meta.video_embed ? "href=\"" + ad_server +  ad_click_url + "\"" : "" )@> target="_blank" class="story-title<@ if (ad_meta.video_embed) { @> has-inline-video<@ } @>"><@=ad_meta.title@></a>&nbsp;<span class="external-link-icon"></span></h3><p class="story-item-description"><a href="<@= ad_server +  ad_click_url @>" target="_blank" class="story-item-source"><@=ad_meta.display_url@></a><a <@=(!ad_meta.video_embed ? "href=\"" + ad_server +  ad_click_url + "\"" : "" )@> target="_blank" class="story-item-teaser <@ if (ad_meta.video_embed) { @> has-inline-video<@ } @>">&mdash; <@=ad_meta.description@></a></p></div><ul class="story-item-meta group"><li class="sponsored-by">Sponsored by <strong><@=ad_meta.sponsored_by@></strong></li></ul></div><div class="story-item-media"><a <@=(!ad_meta.video_embed ? "href=\"" + ad_server +  ad_click_url + "\"" : "" )@> target="_blank" class="thumb thumb-s<@ if (ad_meta.video_embed) { @> has-inline-video<@ } @>"><@ if (ad_meta.video_embed) { @><div class="storylist-icon inline-video"></div><@ } @><img src="<@=ad_meta.thumbnail_url@>" alt="<@=ad_meta.title@>"></a></div><@ if (ad_meta.impression_url) { @><img src="<@=ad_meta.impression_url@>" class="ad-pixel"><@ } @></div><@ if (ad_meta.video_embed) { @><div class="story-item-inline-video-container" style="display:none"><div class="story-item-inline-video"><@=ad_meta.video_embed@></div></div><@ } @></div></script>
+
+</head>
+<body class="mobile" id="mdigg">
+<div id="fb-root"></div>
+<div id="message-dock">
+    <div id="message-sleeve" class="group">
+        <p><span class="sprite message-icon"></span><span id="message-text"></span><a class="dismiss"></a></p>
+    </div>
+</div><div class="content-container">    
+
+<div class="site-header group">
+    <a href="/" class="sprite digg-logo">Digg</a>
+    <ul class="main-nav group">
+        <li><a href="/" class="mynews-link">My News</a></li>
+        <li><a href="/" class="top-news-link active">Top News</a></li>
+        <li><a href="/newsrooms" class="newsrooms-link">Newsrooms</a></li>
+    </ul>
+            <a href="/login" class="header-login auth-login" data-digg-target="#mobile-login">Login</a>
+    </div>
+    <div class="filters group">
+            <ul class="group">
+            <li><a href="/news/all" class="active">Popular</a></li>
+            <li><a href="/upcoming/all">Upcoming</a></li>
+                            <li class="divider"><a href="/news/all" class="active">Recent</a></li>
+                <li><a href="/news/all/24hr" >Top 24h</a></li>
+                        <li class="divider media-filters"><a href="#">m</a></li>
+        </ul>
+    </div>    <div class="adbumper"></div>
+<div class="ad mobile_ad"></div>
+<div class="adbumper"></div>
+
+    <div class="list-header">
+        
+                    <h1>Top News - All Stories <a href="#" class="topic-selector">(change topic)</a></h1>
+            </div>
+
+    <div id="story-list">
+                    
+                        
+                                                                                                                                                                                                                
+<div class="story-item item-20120101183945_7cd207fb-bd21-4b6c-8959-5e06c75f965b no-media group" >
+    <div class="story-item-content">
+        <a href="/news/offbeat/buying_microwave_leads_to_arrest" class="digg-button   item-20120101183945_7cd207fb-bd21-4b6c-8959-5e06c75f965b" data-digg-raw-diggs="36">
+            <span class="count">36</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/offbeat/buying_microwave_leads_to_arrest" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    Buying microwave leads to arrest.
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">cbc.ca</span>                <span class="story-item-teaser">&mdash; A North Carolina man is arrested after trying to purchase $476 of goods ...</span>            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20120101130832_b4d14dba-32ee-4ac7-800b-99c4885f9fab  group" >
+    <div class="story-item-content">
+        <a href="/news/lifestyle/5_modern_medical_procedures_are_thousands_of_years_old" class="digg-button   item-20120101130832_b4d14dba-32ee-4ac7-800b-99c4885f9fab" data-digg-raw-diggs="47">
+            <span class="count">47</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/lifestyle/5_modern_medical_procedures_are_thousands_of_years_old" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    5 &#039;Modern&#039; Medical Procedures (Are Thousands of Years Old)
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">cracked.com</span>                <span class="story-item-teaser">&mdash; Despite what you&#039;ve seen in Monty Python movies or at Renaissance F...</span>            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20120101200013_f6bfaf1e-cbd6-4abc-a3b4-52d380f85067 no-media group" >
+    <div class="story-item-content">
+        <a href="/news/lifestyle/rick_santorum_claims_he_would_invalidate_legally_married_same_sex_couples" class="digg-button   item-20120101200013_f6bfaf1e-cbd6-4abc-a3b4-52d380f85067" data-digg-raw-diggs="62">
+            <span class="count">62</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/lifestyle/rick_santorum_claims_he_would_invalidate_legally_married_same_sex_couples" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    Rick Santorum Claims he would invalidate legally married same sex couples
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">freakoutnation.com</span>                <span class="story-item-teaser">&mdash; Of the top three Republican Presidential candidates in the Iowa polls, M...</span>            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20120101030602_7dcb41c0-2424-4b1b-9ded-eb1194eabb6b no-media group" >
+    <div class="story-item-content">
+        <a href="/news/technology/the_top_50_tech_stories_of_2011" class="digg-button   item-20120101030602_7dcb41c0-2424-4b1b-9ded-eb1194eabb6b" data-digg-raw-diggs="59">
+            <span class="count">59</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/technology/the_top_50_tech_stories_of_2011" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    The Top 50 Tech Stories of 2011
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">maximumpc.com</span>                <span class="story-item-teaser">&mdash; 2011 has been a crazy year with plenty of wild headlines and plot twists.</span>            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20120101154224_bfd6c6b1-9376-41c5-91d2-7447bf3289f2  group" >
+    <div class="story-item-content">
+        <a href="/news/politics/fbi_tracking_activists_as_terrorists" class="digg-button   item-20120101154224_bfd6c6b1-9376-41c5-91d2-7447bf3289f2" data-digg-raw-diggs="86">
+            <span class="count">86</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/politics/fbi_tracking_activists_as_terrorists" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    FBI tracking activists as terrorists
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">latimes.com</span>                <span class="story-item-teaser">&mdash; The FBI ’s Terrorism Task Force has recommended that animal activists wh...</span>            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20120101090329_b09445fe-1d68-4f5d-9d09-c1004e7db181 no-media group" >
+    <div class="story-item-content">
+        <a href="/news/entertainment/the_secret_life_of_j_edgar_hoover" class="digg-button   item-20120101090329_b09445fe-1d68-4f5d-9d09-c1004e7db181" data-digg-raw-diggs="35">
+            <span class="count">35</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/entertainment/the_secret_life_of_j_edgar_hoover" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    The Secret Life of J Edgar Hoover
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">guardian.co.uk</span>                <span class="story-item-teaser">&mdash; For half a century, the FBI director waged war on homosexuals, black peo...</span>            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20120101182732_914d33c7-7210-48b0-b428-c88d21c2212f  group" >
+    <div class="story-item-content">
+        <a href="/news/lifestyle/what_is_a_hangover_3" class="digg-button   item-20120101182732_914d33c7-7210-48b0-b428-c88d21c2212f" data-digg-raw-diggs="44">
+            <span class="count">44</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/lifestyle/what_is_a_hangover_3" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    What Is a Hangover?
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">gizmodo.com</span>                <span class="story-item-teaser">&mdash; Yippee! Let&#039;s poison ourselves with beverages that will make us vio...</span>            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20120101184520_fb8dd83f-4d46-4f0d-8ef8-364b3bc6524c  group" >
+    <div class="story-item-content">
+        <a href="/news/entertainment/cee_lo_green_changes_imagine_lyrics_to_all_religions_from_john_lennon_s_no_religion" class="digg-button   item-20120101184520_fb8dd83f-4d46-4f0d-8ef8-364b3bc6524c" data-digg-raw-diggs="54">
+            <span class="count">54</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/entertainment/cee_lo_green_changes_imagine_lyrics_to_all_religions_from_john_lennon_s_no_religion" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    Cee Lo Green Changes &#039;Imagine&#039; Lyrics To &#039;All Religions&#039; From John Lennon&#03...
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">huffingtonpost.com</span>                <span class="story-item-teaser">&mdash; Cee Lo Green&#039;s small change to the lyrics to John Lennon&#039;s son...</span>            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20120101173712_f69c1654-a923-4eb7-a34b-b70ed002d813 no-media group" >
+    <div class="story-item-content">
+        <a href="/news/politics/congress_is_at_5_approval_and_86_say_congress_is_more_interested_in_their_own_careers_than_others" class="digg-button   item-20120101173712_f69c1654-a923-4eb7-a34b-b70ed002d813" data-digg-raw-diggs="85">
+            <span class="count">85</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/politics/congress_is_at_5_approval_and_86_say_congress_is_more_interested_in_their_own_careers_than_others" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    Congress is at 5% approval, and 86% say Congress is more interested in their own careers than others
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">townhall.com</span>                            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20120101131948_97a47034-e3b7-4efd-ac81-98aa6c09e674 no-media group" >
+    <div class="story-item-content">
+        <a href="/news/entertainment/sister_sister_funk_from_nigeria" class="digg-button   item-20120101131948_97a47034-e3b7-4efd-ac81-98aa6c09e674" data-digg-raw-diggs="84">
+            <span class="count">84</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/entertainment/sister_sister_funk_from_nigeria" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    Sister, Sister: Funk From Nigeria
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">splicetoday.com</span>                <span class="story-item-teaser">&mdash; The Lijadu sisters are certainly repetitious, but not exponentially more...</span>            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20120101080813_c959a215-cbe7-4bc5-90e3-658d6717d431  group" >
+    <div class="story-item-content">
+        <a href="/news/gaming/the_major_video_game_companies_may_be_off_the_sopa_list_but_they_still_support_it" class="digg-button   item-20120101080813_c959a215-cbe7-4bc5-90e3-658d6717d431" data-digg-raw-diggs="95">
+            <span class="count">95</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/gaming/the_major_video_game_companies_may_be_off_the_sopa_list_but_they_still_support_it" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    The major video game companies may be off the SOPA list but they still support it
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">techi.com</span>                <span class="story-item-teaser">&mdash; It’s one thing to distance your company from a list that had proven in t...</span>            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20120101174723_b78de39e-584f-443d-89a0-43b7aa9ed00f  group" >
+    <div class="story-item-content">
+        <a href="/news/science/nasa_first_of_nasa_s_grail_spacecraft_enters_moon_orbit" class="digg-button   item-20120101174723_b78de39e-584f-443d-89a0-43b7aa9ed00f" data-digg-raw-diggs="78">
+            <span class="count">78</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/science/nasa_first_of_nasa_s_grail_spacecraft_enters_moon_orbit" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    NASA: First of NASA&#039;s GRAIL Spacecraft Enters Moon Orbit
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">nasa.gov</span>                <span class="story-item-teaser">&mdash; The first of two NASA spacecraft to study the moon in unprecedented deta...</span>            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20120101180230_97942f2d-e545-44d2-bbae-db33e60edefa  group" >
+    <div class="story-item-content">
+        <a href="/news/story/lg_releases_gorgeous_new_pics_of_the_world_s_largest_oled_screen" class="digg-button   item-20120101180230_97942f2d-e545-44d2-bbae-db33e60edefa" data-digg-raw-diggs="76">
+            <span class="count">76</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/story/lg_releases_gorgeous_new_pics_of_the_world_s_largest_oled_screen" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    LG Releases Gorgeous New Pics of the World&#039;s Largest OLED Screen
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">mashable.com</span>                <span class="story-item-teaser">&mdash; LG rolled out two more dramatic pictures that show off its new 55-inch O...</span>            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20111231184421_06a3da86-9c55-4bd9-8820-6ffb58c5b52d  group" >
+    <div class="story-item-content">
+        <a href="/news/story/sopa_who_s_in_and_who_s_out" class="digg-button   item-20111231184421_06a3da86-9c55-4bd9-8820-6ffb58c5b52d" data-digg-raw-diggs="98">
+            <span class="count">98</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/story/sopa_who_s_in_and_who_s_out" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    SOPA: Who&#039;s in and who&#039;s out?
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">engadget.com</span>                <span class="story-item-teaser">&mdash; By now we&#039;re sure you&#039;re aware that SOPA is more than just a t...</span>            </p>
+        </a>
+    </div>
+</div>                                                                                                                                                                                                                                                                            
+<div class="story-item item-20120101122106_a46a2609-509f-405c-a1e3-ff83755de5e6  group" >
+    <div class="story-item-content">
+        <a href="/news/politics/romney_runs_strong_but_can_he_connect_with_voters" class="digg-button   item-20120101122106_a46a2609-509f-405c-a1e3-ff83755de5e6" data-digg-raw-diggs="86">
+            <span class="count">86</span>
+            <span class="digg-it"></span>
+        </a>
+        <a href="/news/politics/romney_runs_strong_but_can_he_connect_with_voters" class="story-item-biglink">
+            <h3 class="story-item-title">
+                                    Romney runs strong, but can he connect with voters?
+                            </h3>
+            <p class="story-item-description">
+                <span class="story-item-source">reuters.com</span>                <span class="story-item-teaser">&mdash; DES MOINES, Iowa (Reuters) - Mitt Romney&#039;s crowds are larger now.An...</span>            </p>
+        </a>
+    </div>
+</div>                                                                                    </div>
+    <div class="load-more-container">
+    <a href="/ajax/loadMoreTopStories" class="load-more" data-digg-type="topnews">Load More</a>
+</div></div>
+    <div class="mobile-overlay group" id="mobile-media-filters">
+    <div class="close-overlay group">
+        <a class="sprite digg-logo">Digg</a>
+        <a href="#" class="close-overlay-link"><span class="sprite close-it"></span>Close</a>
+    </div>
+    <div class="overlay-content">
+        <p>Sort by media type</p>
+    </div>
+    <div class="mobile-form">
+        <ul class="filter-list group">
+            <li><a href="/news/all/media/recent" class="active">All</a></li>
+            <li><a href="/news/all/images/recent" >Images</a></li>
+            <li><a href="/news/all/videos/recent" >Videos</a></li>
+            <li><a href="/news/all/stories/recent" >Stories</a></li>
+        </ul>
+    </div>
+    <input type="hidden" name="media_type" value="media" id="media_type">
+    <input type="hidden" name="topic" value="all" id="topic">
+    <input type="hidden" name="filter" value="recent" id="filter">
+</div>    <div class="mobile-overlay group" id="mobile-topic-list">
+    <div class="close-overlay group">
+        <a class="sprite digg-logo">Digg</a>
+        <a href="#" class="close-overlay-link"><span class="sprite close-it"></span>Close</a>
+    </div>
+    <div class="mobile-form">
+        <ul class="filter-list group">
+            <li><a href="/news/recent" class="active">All Topics</a></li>
+                                            <li><a href="/news/business" >Business</a></li>
+                                            <li><a href="/news/entertainment" >Entertainment</a></li>
+                                            <li><a href="/news/gaming" >Gaming</a></li>
+                                            <li><a href="/news/lifestyle" >Lifestyle</a></li>
+                                            <li><a href="/news/offbeat" >Offbeat</a></li>
+                                            <li><a href="/news/politics" >Politics</a></li>
+                                            <li><a href="/news/science" >Science</a></li>
+                                            <li><a href="/news/sports" >Sports</a></li>
+                                            <li><a href="/news/technology" >Technology</a></li>
+                                            <li><a href="/news/world_news" >World News</a></li>
+                    </ul>
+    </div>
+</div>
+
+
+    <script src="http://cdn4.diggstatic.com/js/m/lib.cb1f265b.js" type="text/javascript"></script>
+
+    <script src="http://cdn4.diggstatic.com/js/m/App_TopNews/index.a0f28f96.js" type="text/javascript"></script>
+
+
+<div class="mobile-footer">
+    Mobile Site | <a href="http://digg.com/?no_mobile=1">Regular Site</a>
+    <div class="copyright">&copy; Digg Inc. 2011</div>
+</div>
+    <!--
+    <span title="10.2.128.161 Build: 355 - Wed Dec 28 18:46:36 PST 2011">Digg v4: 404.16ms</span>    -->
+    
+        <!-- Begin comScore Tag -->
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6299437&c3=&c4=&c5=&c6=&c15=&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+    
+    <!-- digg is done serving you. 2.01355321270u 137.03599911 6.6742x10-11m3kg-1s-2 6.6742x10-11m3kg-1s-2 -->
+</body>
+</html>
+     

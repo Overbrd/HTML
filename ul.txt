@@ -1,0 +1,38 @@
+<table width="100%" cellpadding="3" cellspacing="3" align="center" border="0">
+
+<tr>
+
+<td>
+
+<ul>
+ 
+<li>Software Installation
+<li>Hardware Repair & Upgrades
+<li>Virus Removal
+<li>Spyware Removal
+<li>O/S Reloads
+
+</ul>
+
+</td>
+
+<td>
+
+<ul>
+
+<li>Data Recovery & Backup
+<li>Wireless Network Setup
+<li>New PC Sales
+<li>One On One Instruction
+<li>Printer Sharing
+
+</ul>
+
+</td>
+
+</tr>
+
+</table>
+
+
+

@@ -1,0 +1,11 @@
+<script language="Javascript">
+<!-- 
+// please keep these lines on when you copy the source
+// made by: Nicolas - http://www.javascript-page.com
+
+if (top.location != self.location) {
+top.location = self.location.href
+}
+
+//--> 
+</script>

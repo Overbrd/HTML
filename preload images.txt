@@ -1,0 +1,18 @@
+<script language="Javascript" type="text/javascript">
+<!--
+if (document.images)
+{
+  pic1= new Image(175,48); 
+  pic1.src="http://delraycomputer.com/dbsmple/template/vertical-menu/images/active_button.png"; 
+
+  pic2= new Image(175,48); 
+  pic2.src="http://delraycomputer.com/dbsmple/template/vertical-menu/images/hoover_button.png"; 
+
+  pic3= new Image(275,377); 
+  pic3.src="http://delraycomputer.com/dbsmple/template/vertical-menu/images/timeshareimage.png"; 
+}
+//-->
+</SCRIPT>
+
+</head>
+

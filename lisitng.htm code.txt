@@ -1,0 +1,365 @@
+<center><h1>Featured Listings</h1><br><br>
+
+Please call us if you have any questions!<br><br>
+
+Please click <a href="OurListings.htm">HERE</a> to go back to Listings Page.<br><br></center>
+
+<table width="84%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+          
+          
+<!-- HEADER BELOW -->
+
+            <td colspan="6" class="listingheader">NEW CONSTRUCTION</td>
+            
+<!-- END HEADER -->
+
+<!-- PRICE BELOW -->
+
+
+          </tr>
+          <tr> 
+            <td class="textsmall" colspan="2"><img src="images/arrow11.jpg" width="11" height="11">$189,900</td>
+            <td rowspan="11" width="56%"> 
+         
+ <!-- END PRICE -->
+            
+<!-- MAIN IMAGE LINK TO LARGER IMAGE THAT OPENS IN NEW WINDOW BELOW -->
+
+              <p><A HREF="javascript:newWindow('images/100_0591800.jpg')">
+              
+              
+<!-- END MAIN IMAGE LINK-->
+
+<!-- MAIN IMAGE BELOW -->
+
+<img src="images/100_0591350.jpg" width="350" height="233" border="0"></a></p>
+
+
+<!-- END MAIN IMAGE -->
+
+
+<!-- ADDRESS BELOW -->
+
+
+              <p class="TextNormalBold">9665 N Mitchelle Dr., Citrus Springs, FL  34434</p>
+              <p class="TextNormalBold">&nbsp;</p>
+            </td>
+            
+            
+<!-- END ADDRESS -->
+
+
+            <td width="4%"><img src="images/check22.jpg" width="22" height="22"></td>
+            <td width="10%" class="TextNormal">
+            
+            
+<!-- STYLE BELOW -->
+
+ 
+              <div align="left">Style</div>
+            </td>
+            <td width="10%" class="TextNormal"> 
+              <div align="right">
+              
+              
+
+
+
+                <DIV align=right>Insulating Concrete Form (ICF)</DIV>
+              </div>
+            </td>
+          </tr>
+          <tr> 
+          
+<!-- END STYLE -->
+
+<!-- TYPE BELOW -->
+
+
+            <td class="textsmall" colspan="2"><img src="images/arrow11.jpg" width="11" height="11">available</td>
+            <td width="4%"><img src="images/check22.jpg" width="22" height="22"></td>
+            <td width="10%" class="TextNormal"> 
+            
+              <div align="left">Type</div>
+            </td>
+            <td width="10%" class="TextNormal"> 
+            
+            
+
+
+
+              <div align="right">Single Family Home</div>
+            </td>
+          </tr>
+          
+ <!-- END TYPE -->
+ 
+ 
+ <!-- BEDROOMS BELOW -->
+ 
+          <tr> 
+            <td rowspan="9" colspan="2">&nbsp;</td>
+            <td width="4%"><img src="images/check22.jpg" width="22" height="22"></td>
+            <td width="10%" class="TextNormal"> 
+              <div align="left">Bedrooms</div>
+            </td>
+            <td width="10%" class="TextNormal"> 
+            
+            
+             <div align="right">3</div>
+            </td>
+          </tr>
+          
+  <!-- END BEDROOMS -->
+  
+  
+  <!-- BATHROOMS BELOW -->
+  
+  
+          <tr> 
+            <td width="4%"><img src="images/check22.jpg" width="22" height="22"></td>
+            <td width="10%" class="TextNormal"> 
+              <div align="left">Bathrooms</div>
+            </td>
+            <td width="10%" class="TextNormal"> 
+            
+            
+             <div align="right">2</div>
+            </td>
+          </tr>
+          
+ <!-- END BATHROOMS -->
+          
+          
+ <!-- GARAGES BELOW -->
+          
+          <tr> 
+            <td width="4%"><img src="images/check22.jpg" width="22" height="22"></td>
+            <td width="10%" class="TextNormal"> 
+              <div align="left">Garages</div>
+            </td>
+            <td width="10%" class="TextNormal"> 
+            
+            
+
+
+
+              <div align="right">2</div>
+            </td>
+          </tr>
+          
+ <!-- END GARAGES -->
+ 
+ <!-- SQUARE FOOTAGE BELOW -->
+ 
+ 
+          <tr> 
+            <td width="4%"><img src="images/check22.jpg" width="22" height="22"></td>
+            <td width="10%" class="TextNormal"> 
+              <div align="left">Square Footage</div>
+              
+              
+           </td>
+            <td width="10%" class="TextNormal"> 
+              <div align="right">1,435</div>
+            </td>
+          </tr>
+          
+ <!-- END SQUARE FOOTAGE -->
+ 
+ <!-- LOT SIZE BELOW -->
+ 
+ 
+ 
+          <tr> 
+            <td width="4%"><img src="images/check22.jpg" width="22" height="22"></td>
+            <td width="10%" class="TextNormal"> 
+              <div align="left">Lot Size</div>
+            </td>
+            <td width="10%" class="TextNormal"> 
+            <div align="right">.25 Acres</div>
+            </td>
+          </tr>
+          
+  <!-- END LOT SIZE -->
+  
+   <!-- YEAR BUILT BELOW -->
+          
+          
+          <tr> 
+            <td width="4%"><img src="images/check22.jpg" width="22" height="22"></td>
+            <td width="10%" class="TextNormal"> 
+              <div align="left">Year Built</div>
+            </td>
+            <td width="10%" class="TextNormal"> 
+            
+            
+
+
+
+              <div align="right">2005</div>
+            </td>
+          </tr>
+          
+ <!-- END YEAR BUILT -->
+ 
+ <!-- MLS NUMBER BELOW -->
+            
+            
+          <tr> 
+            <td width="4%"><img src="images/check22.jpg" width="22" height="22"></td>
+            <td width="10%" class="TextNormal"> 
+              <div align="left">MLS Number</div>
+            </td>
+            <td width="10%" class="TextNormal"> 
+            
+            
+
+
+
+              <div align="right">301959K</div>
+            </td>
+          </tr>
+          
+ <!-- END MLS NUMBER -->
+ 
+ 
+ <!-- DESCRIPTION BELOW -->
+ 
+          <tr> 
+            <td colspan="5">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td colspan="5">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td colspan="6" class="TextNormal"> 
+            
+            
+
+
+
+              <p>3/2/2 Insulating Concrete Form (ICF) Performance Home. Reduce energy costs up to 50 percent in this gorgeous, family-friendly, quiet, and energy efficient home. Guaranteed security in the coming hurricane season in a solid, reinforced-concrete residence. Features adding to the charm and beauty of this new construction home: AMVIC insulated concrete walls, BetterBilt Double pane Low E shatter proof windows, and built hurricane proof.</p>
+
+
+ <!-- END DESCRIPTION -->
+ 
+ <center>
+ 
+<!-- ALL SMALL PHOTOS BELOW LISTING GO HERE-->
+
+<!-- IMAGE 1 LINK TO LARGER IMAGE THAT OPENS IN NEW WINDOW BELOW -->
+
+              <A HREF="javascript:newWindow('images/100_0593800.jpg')">
+              
+              
+<!-- END IMAGE 1 LINK-->
+
+<!-- IMAGE 1 BELOW -->
+
+<img src="images/100_0593144.jpg" width="144" height="96" border="1"></a>
+
+
+<!-- END IMAGE 1 -->
+
+<!-- IMAGE 2 LINK TO LARGER IMAGE THAT OPENS IN NEW WINDOW BELOW -->
+
+              <A HREF="javascript:newWindow('images/100_0594800.jpg')">
+              
+              
+<!-- END IMAGE 2 LINK-->
+
+<!-- IMAGE 2 BELOW -->
+
+<img src="images/100_0594144.jpg" width="144" height="96" border="1"></a>
+
+
+<!-- END IMAGE 2 -->
+
+
+<!-- IMAGE 3 LINK TO LARGER IMAGE THAT OPENS IN NEW WINDOW BELOW -->
+
+              <A HREF="javascript:newWindow('images/100_0595800.jpg')">
+              
+              
+<!-- END IMAGE 3 LINK-->
+
+<!-- IMAGE 3 BELOW -->
+
+<img src="images/100_0595144.jpg" width="144" height="96" border="1"></a>
+
+
+<!-- END IMAGE 3 -->
+
+
+<!-- IMAGE 4 LINK TO LARGER IMAGE THAT OPENS IN NEW WINDOW BELOW -->
+
+              <A HREF="javascript:newWindow('images/100_0596800.jpg')">
+              
+              
+<!-- END IMAGE 4 LINK-->
+
+<!-- IMAGE 4 BELOW -->
+
+<img src="images/100_0596144.jpg" width="144" height="96" border="1"></a>
+
+
+<!-- END IMAGE 4 -->
+
+<!-- IMAGE 5 LINK TO LARGER IMAGE THAT OPENS IN NEW WINDOW BELOW -->
+
+              <A HREF="javascript:newWindow('images/100_0597800.jpg')">
+              
+              
+<!-- END IMAGE 5 LINK-->
+
+<!-- IMAGE 5 BELOW -->
+
+<img src="images/100_0597144.jpg" width="144" height="96" border="1"></a>
+
+
+<!-- END IMAGE 5 -->
+
+
+<!-- IMAGE 6 LINK TO LARGER IMAGE THAT OPENS IN NEW WINDOW BELOW -->
+
+              <A HREF="javascript:newWindow('images/100_0598800.jpg')">
+              
+              
+<!-- END IMAGE 6 LINK-->
+
+<!-- IMAGE 6 BELOW -->
+
+<img src="images/100_0598144.jpg" width="144" height="96" border="1"></a>
+
+
+<!-- END IMAGE 6 -->
+
+<!-- IMAGE 7 LINK TO LARGER IMAGE THAT OPENS IN NEW WINDOW BELOW -->
+
+              <A HREF="javascript:newWindow('images/100_0599800.jpg')">
+              
+              
+<!-- END IMAGE 7 LINK-->
+
+<!-- IMAGE 7 BELOW -->
+
+<img src="images/100_0599144.jpg" width="144" height="96" border="1"></a>
+
+
+<!-- END IMAGE 7 -->
+
+
+
+
+
+
+
+<!-- END SMALL PHOTOS BELOW LISTING -->
+
+</center>
+
+</td>          
+</tr>
+</table>

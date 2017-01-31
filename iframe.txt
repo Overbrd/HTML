@@ -1,0 +1,33 @@
+<iframe src="http://delraycomputer.com/imguldc.php" width="420" height="318" marginheight="0" marginwidth="0" allowtransparency="true" scrolling="no" frameborder="0" />
+
+
+
+&lt1=_new
+
+add to end of url strinf to make open in new window
+
+<IFRAME SRC="applets/homefade/homefade5.html" WIDTH=540 HEIGHT=540>
+</IFRAME>
+
+or
+
+<iframe src="page.html" width="100" height="100"><p>Alternative content here</p></iframe>
+
+name 	value 	meaning
+src 	"URL" 	the address of the initial content for the inline frame
+name 	"string" 	assigns a name to the inline frame, for use in target attribute
+longdesc 	"URL" 	refers to a document containing a description (not supported yet)
+width 	number of pixels or percentage (e.g. "20%") 	width of the inline frame; see notes below
+height 	height of the inline frame; see notes below
+align 	"top" 	aligns the inline frame vertically on the top of the surrounding content on its left and right
+"bottom" 	aligns the inline frame vertically on the bottom of the surrounding content on its left and right
+"middle" 	aligns the center of the inline frame vertically with the current baseline
+"left" 	places the inline frame at the left margin so that subsequent page content flows on the right of it
+"right" 	places the inline frame at the right margin so that subsequent page content flows on the left of it
+frameborder 	"1" 	specifies that a border is to appear around the frame; this is the default
+"0" 	suppresses the border
+marginwidth 	number of pixels 	size of the top and bottom margin inside the inline frame; see notes below
+marginheight 	size of the left and right margin inside the inline frame; see notes below
+scrolling 	"auto" 	scrollbars appear if and only if they are needed to see all the content; this is the default
+"yes" 	scrollbars appear in any case
+"no" 	scrollbars do not appear, which may cause part of the content to be inaccessible; see example on simulating scrollable tables

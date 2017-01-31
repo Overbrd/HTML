@@ -1,0 +1,12 @@
+<center>
+
+<form>
+<input type=button value="Back"
+onCLick="history.back()">
+</form>
+
+</center>
+
+or
+
+<p><a href="#" onclick="history.back();">Back</a></p>

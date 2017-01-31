@@ -1,0 +1,30 @@
+<head>
+<title>How to stretch a background image.</title>
+<style type="text/css">
+body {margin:0px;}
+#bg_image {
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+position: absolute;
+z-index: 0;
+}
+#contents {
+z-index: 1;
+position: absolute;
+}
+</style>
+</head>
+
+<body>
+
+<!-- this creates the background image -->
+<div id="bg_image">
+<img src="images/scenery.jpg" style="width: 100%; height: 100%;">
+</div>
+
+<!-- this puts the contents of the page ontop of the background image -->
+<div id="contents">
+This is a test.
+</div>

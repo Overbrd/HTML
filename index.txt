@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+
+<title>Precious Poses Logo Samples</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+
+<META HTTP-EQUIV="Set-Cookie" CONTENT="preciousposes=1;expires=Wednesday, 08-Aug-99 23:59:59 GMT; path=/">
+
+<meta name="keywords" content="">
+
+<meta name="description" content="">
+
+<META NAME="GENERATOR" content="DelrayComputer.com">
+
+<META NAME="abstract" CONTENT="Precious Poses Logo Samples">
+
+<META NAME="ROBOTS" CONTENT="INDEX,FOLLOW">
+
+</head>
+
+<body bgcolor="#FFFFFF">
+
+
+
+<!-- TABLE 1 -->
+
+<table width="990" align="center" cellpadding="0" cellspacing="0" border="0">
+
+<tr>
+
+<td>
+
+These are six logos to choose from thus far... They are a little different, for example the grey gets lighter in them as you go down the page. Three are one line and three are two lines.<br><br>If you like one thing about one and somthing about another I can make a new version incorporating a pice of one and a piece of another.<br><br>If none of these are to your liking I can create an additional six for you to choose from if you like!<hr
+
+<img src="images/logoVer1.jpg" width="980" height="186" alt="" border="0"><br>
+Version 1
+<hr>
+
+<img src="images/logoVer2.jpg" width="980" height="186" alt="" border="0"><br>
+Version 2
+<hr>
+
+
+<img src="images/logoVer3.jpg" width="980" height="186" alt="" border="0"><br>
+Version 3
+<hr>
+
+
+<img src="images/logoVer4.jpg" width="980" height="186" alt="" border="0"><br>
+Version 4
+<hr>
+
+
+<img src="images/logoVer5.jpg" width="980" height="186" alt="" border="0"><br>
+Version 5
+<hr>
+
+
+<img src="images/logoVer6.jpg" width="980" height="186" alt="" border="0"><br>
+Version 6
+<hr>
+
+
+<center>
+
+</center>
+
+</td>
+
+</tr>
+
+
+
+</table>
+
+</body>
+
+</html>
+
